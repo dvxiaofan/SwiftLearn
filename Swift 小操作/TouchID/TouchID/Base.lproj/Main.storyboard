@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TouchID" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySK-r7-63m">
+                                <rect key="frame" x="155" y="173" width="64" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="S0N-XW-Q6C"/>
+                                </constraints>
+                                <state key="normal" title="TouchMe"/>
+                                <connections>
+                                    <action selector="touchMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zl9-nw-hVn"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ID 正确, 可以继续" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fO-YJ-QJo">
+                                <rect key="frame" x="20" y="285" width="335" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6fO-YJ-QJo" firstAttribute="centerX" secondItem="ySK-r7-63m" secondAttribute="centerX" id="Dp6-hR-39O"/>
+                            <constraint firstItem="ySK-r7-63m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="153" id="JDn-US-huw"/>
+                            <constraint firstItem="ySK-r7-63m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Rrr-hJ-PdS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="6fO-YJ-QJo" secondAttribute="bottom" constant="282" id="ZOY-9i-m1R"/>
+                            <constraint firstItem="6fO-YJ-QJo" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="fql-Sh-Uow"/>
+                            <constraint firstItem="6fO-YJ-QJo" firstAttribute="top" secondItem="ySK-r7-63m" secondAttribute="bottom" constant="82" id="q8F-LN-XUS"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="label" destination="6fO-YJ-QJo" id="OQl-yX-GMh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="339.5" y="387.5"/>
+        </scene>
+    </scenes>
+</document>

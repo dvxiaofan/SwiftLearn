@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD6F93081D62E95F000BE126 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F93071D62E95F000BE126 /* AppDelegate.swift */; };
+		BD6F930A1D62E95F000BE126 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6F93091D62E95F000BE126 /* ViewController.swift */; };
+		BD6F930D1D62E95F000BE126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6F930B1D62E95F000BE126 /* Main.storyboard */; };
+		BD6F930F1D62E95F000BE126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6F930E1D62E95F000BE126 /* Assets.xcassets */; };
+		BD6F93121D62E95F000BE126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD6F93101D62E95F000BE126 /* LaunchScreen.storyboard */; };
+		BDA2D46D1D62FBD90039C106 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BDA2D4641D62FBD80039C106 /* Emoticons.bundle */; };
+		BDA2D46E1D62FBD90039C106 /* XFEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2D4661D62FBD80039C106 /* XFEmoticon.swift */; };
+		BDA2D46F1D62FBD90039C106 /* XFEmoticonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2D4671D62FBD80039C106 /* XFEmoticonManager.swift */; };
+		BDA2D4701D62FBD90039C106 /* XFEmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2D4681D62FBD80039C106 /* XFEmoticonPackage.swift */; };
+		BDA2D4711D62FBD90039C106 /* UITextView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2D4691D62FBD80039C106 /* UITextView-Extension.swift */; };
+		BDA2D4721D62FBD90039C106 /* XFEmoAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2D46A1D62FBD80039C106 /* XFEmoAttachment.swift */; };
+		BDA2D4731D62FBD90039C106 /* XFEmoticonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2D46B1D62FBD80039C106 /* XFEmoticonCell.swift */; };
+		BDA2D4741D62FBD90039C106 /* XFEmoticonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2D46C1D62FBD80039C106 /* XFEmoticonController.swift */; };
+		BDA2D4761D6310030039C106 /* XFFindEmoticom.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA2D4751D6310030039C106 /* XFFindEmoticom.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD6F93041D62E95F000BE126 /* 正则表达式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "正则表达式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6F93071D62E95F000BE126 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD6F93091D62E95F000BE126 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD6F930C1D62E95F000BE126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD6F930E1D62E95F000BE126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD6F93111D62E95F000BE126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD6F93131D62E95F000BE126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDA2D4641D62FBD80039C106 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		BDA2D4661D62FBD80039C106 /* XFEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFEmoticon.swift; sourceTree = "<group>"; };
+		BDA2D4671D62FBD80039C106 /* XFEmoticonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFEmoticonManager.swift; sourceTree = "<group>"; };
+		BDA2D4681D62FBD80039C106 /* XFEmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFEmoticonPackage.swift; sourceTree = "<group>"; };
+		BDA2D4691D62FBD80039C106 /* UITextView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView-Extension.swift"; sourceTree = "<group>"; };
+		BDA2D46A1D62FBD80039C106 /* XFEmoAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFEmoAttachment.swift; sourceTree = "<group>"; };
+		BDA2D46B1D62FBD80039C106 /* XFEmoticonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFEmoticonCell.swift; sourceTree = "<group>"; };
+		BDA2D46C1D62FBD80039C106 /* XFEmoticonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFEmoticonController.swift; sourceTree = "<group>"; };
+		BDA2D4751D6310030039C106 /* XFFindEmoticom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFFindEmoticom.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6F93011D62E95F000BE126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD6F92FB1D62E95F000BE126 = {
+			isa = PBXGroup;
+			children = (
+				BD6F93061D62E95F000BE126 /* 正则表达式 */,
+				BD6F93051D62E95F000BE126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6F93051D62E95F000BE126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6F93041D62E95F000BE126 /* 正则表达式.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6F93061D62E95F000BE126 /* 正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2D4631D62FBD80039C106 /* Emoticon */,
+				BD6F93071D62E95F000BE126 /* AppDelegate.swift */,
+				BD6F93091D62E95F000BE126 /* ViewController.swift */,
+				BD6F930B1D62E95F000BE126 /* Main.storyboard */,
+				BD6F930E1D62E95F000BE126 /* Assets.xcassets */,
+				BD6F93101D62E95F000BE126 /* LaunchScreen.storyboard */,
+				BD6F93131D62E95F000BE126 /* Info.plist */,
+			);
+			path = "正则表达式";
+			sourceTree = "<group>";
+		};
+		BDA2D4631D62FBD80039C106 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2D4641D62FBD80039C106 /* Emoticons.bundle */,
+				BDA2D4651D62FBD80039C106 /* Model */,
+				BDA2D4691D62FBD80039C106 /* UITextView-Extension.swift */,
+				BDA2D46A1D62FBD80039C106 /* XFEmoAttachment.swift */,
+				BDA2D46B1D62FBD80039C106 /* XFEmoticonCell.swift */,
+				BDA2D46C1D62FBD80039C106 /* XFEmoticonController.swift */,
+				BDA2D4751D6310030039C106 /* XFFindEmoticom.swift */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		BDA2D4651D62FBD80039C106 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDA2D4661D62FBD80039C106 /* XFEmoticon.swift */,
+				BDA2D4671D62FBD80039C106 /* XFEmoticonManager.swift */,
+				BDA2D4681D62FBD80039C106 /* XFEmoticonPackage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6F93031D62E95F000BE126 /* 正则表达式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6F93161D62E95F000BE126 /* Build configuration list for PBXNativeTarget "正则表达式" */;
+			buildPhases = (
+				BD6F93001D62E95F000BE126 /* Sources */,
+				BD6F93011D62E95F000BE126 /* Frameworks */,
+				BD6F93021D62E95F000BE126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "正则表达式";
+			productName = "正则表达式";
+			productReference = BD6F93041D62E95F000BE126 /* 正则表达式.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6F92FC1D62E95F000BE126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaofan;
+				TargetAttributes = {
+					BD6F93031D62E95F000BE126 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BD6F92FF1D62E95F000BE126 /* Build configuration list for PBXProject "正则表达式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD6F92FB1D62E95F000BE126;
+			productRefGroup = BD6F93051D62E95F000BE126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6F93031D62E95F000BE126 /* 正则表达式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6F93021D62E95F000BE126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6F93121D62E95F000BE126 /* LaunchScreen.storyboard in Resources */,
+				BDA2D46D1D62FBD90039C106 /* Emoticons.bundle in Resources */,
+				BD6F930F1D62E95F000BE126 /* Assets.xcassets in Resources */,
+				BD6F930D1D62E95F000BE126 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6F93001D62E95F000BE126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6F930A1D62E95F000BE126 /* ViewController.swift in Sources */,
+				BDA2D4761D6310030039C106 /* XFFindEmoticom.swift in Sources */,
+				BDA2D4741D62FBD90039C106 /* XFEmoticonController.swift in Sources */,
+				BDA2D46F1D62FBD90039C106 /* XFEmoticonManager.swift in Sources */,
+				BD6F93081D62E95F000BE126 /* AppDelegate.swift in Sources */,
+				BDA2D4731D62FBD90039C106 /* XFEmoticonCell.swift in Sources */,
+				BDA2D4701D62FBD90039C106 /* XFEmoticonPackage.swift in Sources */,
+				BDA2D46E1D62FBD90039C106 /* XFEmoticon.swift in Sources */,
+				BDA2D4711D62FBD90039C106 /* UITextView-Extension.swift in Sources */,
+				BDA2D4721D62FBD90039C106 /* XFEmoAttachment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD6F930B1D62E95F000BE126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6F930C1D62E95F000BE126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD6F93101D62E95F000BE126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6F93111D62E95F000BE126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD6F93141D62E95F000BE126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD6F93151D62E95F000BE126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD6F93171D62E95F000BE126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "正则表达式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD6F93181D62E95F000BE126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "正则表达式/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6F92FF1D62E95F000BE126 /* Build configuration list for PBXProject "正则表达式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6F93141D62E95F000BE126 /* Debug */,
+				BD6F93151D62E95F000BE126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6F93161D62E95F000BE126 /* Build configuration list for PBXNativeTarget "正则表达式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6F93171D62E95F000BE126 /* Debug */,
+				BD6F93181D62E95F000BE126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD6F92FC1D62E95F000BE126 /* Project object */;
+}

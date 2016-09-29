@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HidenObject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oe1-WC-AFc">
+                                <rect key="frame" x="20" y="28" width="335" height="30"/>
+                                <state key="normal" title="隐藏"/>
+                                <connections>
+                                    <action selector="hidenClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6mH-OP-ZNT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IJb-HO-03P">
+                                <rect key="frame" x="20" y="108" width="335" height="30"/>
+                                <state key="normal" title="显示"/>
+                                <connections>
+                                    <action selector="showClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bpn-QX-umi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9V-A8-kxc">
+                                <rect key="frame" x="20" y="73" width="335" height="21"/>
+                                <color key="backgroundColor" red="1" green="0.64478095280000003" blue="0.096066104590000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eqy-Rb-xwp">
+                                <rect key="frame" x="20" y="173" width="146" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bY7-Ru-jMp">
+                                        <rect key="frame" x="8" y="8" width="130" height="30"/>
+                                        <state key="normal" title="隐藏蓝色 view">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hidenBlueView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dJ6-pt-2GW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a8F-iT-dei">
+                                <rect key="frame" x="209" y="173" width="146" height="128"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d5U-di-wbN">
+                                        <rect key="frame" x="8" y="8" width="130" height="30"/>
+                                        <state key="normal" title="隐藏红色 view">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="hidenRedView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zqa-pQ-pnt"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sg-te-rrd">
+                                <rect key="frame" x="20" y="319" width="335" height="30"/>
+                                <state key="normal" title="上面的 label 隐藏了吗"/>
+                                <connections>
+                                    <action selector="isHiddenBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8kb-nV-Lkh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kex-vi-Sq1">
+                                <rect key="frame" x="20" y="357" width="335" height="21"/>
+                                <color key="backgroundColor" red="0.69974155739999999" green="1" blue="0.72814387179999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a8F-iT-dei" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="209" id="0Yu-n3-nOB"/>
+                            <constraint firstItem="a8F-iT-dei" firstAttribute="top" secondItem="Eqy-Rb-xwp" secondAttribute="top" id="6MR-ht-q3R"/>
+                            <constraint firstItem="a8F-iT-dei" firstAttribute="trailing" secondItem="IJb-HO-03P" secondAttribute="trailing" id="8iL-za-Rge"/>
+                            <constraint firstItem="IJb-HO-03P" firstAttribute="top" secondItem="u9V-A8-kxc" secondAttribute="bottom" constant="14" id="99u-QW-t3Q"/>
+                            <constraint firstItem="Kex-vi-Sq1" firstAttribute="trailing" secondItem="0sg-te-rrd" secondAttribute="trailing" id="9Ld-eF-0Ec"/>
+                            <constraint firstItem="u9V-A8-kxc" firstAttribute="top" secondItem="Oe1-WC-AFc" secondAttribute="bottom" constant="15" id="E2E-cf-GR3"/>
+                            <constraint firstItem="Eqy-Rb-xwp" firstAttribute="leading" secondItem="IJb-HO-03P" secondAttribute="leading" id="Ew3-PY-ZpW"/>
+                            <constraint firstItem="Oe1-WC-AFc" firstAttribute="leading" secondItem="u9V-A8-kxc" secondAttribute="leading" id="Kwd-jM-kfP"/>
+                            <constraint firstItem="0sg-te-rrd" firstAttribute="leading" secondItem="Kex-vi-Sq1" secondAttribute="leading" id="LZb-ar-Ye6"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Kex-vi-Sq1" secondAttribute="bottom" constant="289" id="QcU-EO-QDT"/>
+                            <constraint firstItem="Oe1-WC-AFc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SKS-pK-lWN"/>
+                            <constraint firstItem="u9V-A8-kxc" firstAttribute="leading" secondItem="IJb-HO-03P" secondAttribute="leading" id="XGw-O7-1ME"/>
+                            <constraint firstItem="Kex-vi-Sq1" firstAttribute="top" secondItem="0sg-te-rrd" secondAttribute="bottom" constant="8" symbolic="YES" id="a0k-JA-wlV"/>
+                            <constraint firstItem="0sg-te-rrd" firstAttribute="trailing" secondItem="a8F-iT-dei" secondAttribute="trailing" id="aC4-YC-wOa"/>
+                            <constraint firstItem="0sg-te-rrd" firstAttribute="top" secondItem="a8F-iT-dei" secondAttribute="bottom" constant="18" id="eCy-4y-Xce"/>
+                            <constraint firstItem="u9V-A8-kxc" firstAttribute="trailing" secondItem="Oe1-WC-AFc" secondAttribute="trailing" id="eT8-xd-aAx"/>
+                            <constraint firstItem="u9V-A8-kxc" firstAttribute="trailing" secondItem="IJb-HO-03P" secondAttribute="trailing" id="ehm-8d-stb"/>
+                            <constraint firstItem="Oe1-WC-AFc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="gab-pL-IIg"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Eqy-Rb-xwp" secondAttribute="bottom" constant="366" id="hzl-5V-lFS"/>
+                            <constraint firstItem="a8F-iT-dei" firstAttribute="bottom" secondItem="Eqy-Rb-xwp" secondAttribute="bottom" id="jfX-VB-zbI"/>
+                            <constraint firstItem="Oe1-WC-AFc" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="jw1-N3-wur"/>
+                            <constraint firstItem="Eqy-Rb-xwp" firstAttribute="top" secondItem="IJb-HO-03P" secondAttribute="bottom" constant="35" id="nex-hD-RZr"/>
+                            <constraint firstItem="0sg-te-rrd" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nmm-O7-bha"/>
+                            <constraint firstItem="0sg-te-rrd" firstAttribute="leading" secondItem="Eqy-Rb-xwp" secondAttribute="leading" id="nwF-ZM-dbc"/>
+                            <constraint firstItem="a8F-iT-dei" firstAttribute="leading" secondItem="Eqy-Rb-xwp" secondAttribute="trailing" constant="43" id="ztj-5h-Mdb"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="blueView" destination="Eqy-Rb-xwp" id="nMN-JU-eyG"/>
+                        <outlet property="label" destination="u9V-A8-kxc" id="b4p-Nc-u1A"/>
+                        <outlet property="label2" destination="Kex-vi-Sq1" id="wac-EY-iDS"/>
+                        <outlet property="redView" destination="a8F-iT-dei" id="cGi-WN-gwm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="272.5" y="245.5"/>
+        </scene>
+    </scenes>
+</document>

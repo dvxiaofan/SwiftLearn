@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDD22AF91D559311007A86F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AF81D559311007A86F8 /* AppDelegate.swift */; };
+		BDD22AFB1D559311007A86F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22AFA1D559311007A86F8 /* ViewController.swift */; };
+		BDD22AFE1D559311007A86F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD22AFC1D559311007A86F8 /* Main.storyboard */; };
+		BDD22B001D559311007A86F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD22AFF1D559311007A86F8 /* Assets.xcassets */; };
+		BDD22B031D559311007A86F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD22B011D559311007A86F8 /* LaunchScreen.storyboard */; };
+		BDD22B0E1D559311007A86F8 /* Swift_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22B0D1D559311007A86F8 /* Swift_____Tests.swift */; };
+		BDD22B191D559311007A86F8 /* Swift_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD22B181D559311007A86F8 /* Swift_____UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDD22B0A1D559311007A86F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD22AED1D559311007A86F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD22AF41D559311007A86F8;
+			remoteInfo = "Swift 异常练习";
+		};
+		BDD22B151D559311007A86F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDD22AED1D559311007A86F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDD22AF41D559311007A86F8;
+			remoteInfo = "Swift 异常练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDD22AF51D559311007A86F8 /* Swift 异常练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift 异常练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD22AF81D559311007A86F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDD22AFA1D559311007A86F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDD22AFD1D559311007A86F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDD22AFF1D559311007A86F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDD22B021D559311007A86F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDD22B041D559311007A86F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD22B091D559311007A86F8 /* Swift 异常练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift 异常练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD22B0D1D559311007A86F8 /* Swift_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_____Tests.swift"; sourceTree = "<group>"; };
+		BDD22B0F1D559311007A86F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDD22B141D559311007A86F8 /* Swift 异常练习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift 异常练习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD22B181D559311007A86F8 /* Swift_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift_____UITests.swift"; sourceTree = "<group>"; };
+		BDD22B1A1D559311007A86F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD22AF21D559311007A86F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD22B061D559311007A86F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD22B111D559311007A86F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDD22AEC1D559311007A86F8 = {
+			isa = PBXGroup;
+			children = (
+				BDD22AF71D559311007A86F8 /* Swift 异常练习 */,
+				BDD22B0C1D559311007A86F8 /* Swift 异常练习Tests */,
+				BDD22B171D559311007A86F8 /* Swift 异常练习UITests */,
+				BDD22AF61D559311007A86F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD22AF61D559311007A86F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22AF51D559311007A86F8 /* Swift 异常练习.app */,
+				BDD22B091D559311007A86F8 /* Swift 异常练习Tests.xctest */,
+				BDD22B141D559311007A86F8 /* Swift 异常练习UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD22AF71D559311007A86F8 /* Swift 异常练习 */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22AF81D559311007A86F8 /* AppDelegate.swift */,
+				BDD22AFA1D559311007A86F8 /* ViewController.swift */,
+				BDD22AFC1D559311007A86F8 /* Main.storyboard */,
+				BDD22AFF1D559311007A86F8 /* Assets.xcassets */,
+				BDD22B011D559311007A86F8 /* LaunchScreen.storyboard */,
+				BDD22B041D559311007A86F8 /* Info.plist */,
+			);
+			path = "Swift 异常练习";
+			sourceTree = "<group>";
+		};
+		BDD22B0C1D559311007A86F8 /* Swift 异常练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22B0D1D559311007A86F8 /* Swift_____Tests.swift */,
+				BDD22B0F1D559311007A86F8 /* Info.plist */,
+			);
+			path = "Swift 异常练习Tests";
+			sourceTree = "<group>";
+		};
+		BDD22B171D559311007A86F8 /* Swift 异常练习UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDD22B181D559311007A86F8 /* Swift_____UITests.swift */,
+				BDD22B1A1D559311007A86F8 /* Info.plist */,
+			);
+			path = "Swift 异常练习UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD22AF41D559311007A86F8 /* Swift 异常练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD22B1D1D559311007A86F8 /* Build configuration list for PBXNativeTarget "Swift 异常练习" */;
+			buildPhases = (
+				BDD22AF11D559311007A86F8 /* Sources */,
+				BDD22AF21D559311007A86F8 /* Frameworks */,
+				BDD22AF31D559311007A86F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift 异常练习";
+			productName = "Swift 异常练习";
+			productReference = BDD22AF51D559311007A86F8 /* Swift 异常练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDD22B081D559311007A86F8 /* Swift 异常练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD22B201D559311007A86F8 /* Build configuration list for PBXNativeTarget "Swift 异常练习Tests" */;
+			buildPhases = (
+				BDD22B051D559311007A86F8 /* Sources */,
+				BDD22B061D559311007A86F8 /* Frameworks */,
+				BDD22B071D559311007A86F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD22B0B1D559311007A86F8 /* PBXTargetDependency */,
+			);
+			name = "Swift 异常练习Tests";
+			productName = "Swift 异常练习Tests";
+			productReference = BDD22B091D559311007A86F8 /* Swift 异常练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDD22B131D559311007A86F8 /* Swift 异常练习UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD22B231D559311007A86F8 /* Build configuration list for PBXNativeTarget "Swift 异常练习UITests" */;
+			buildPhases = (
+				BDD22B101D559311007A86F8 /* Sources */,
+				BDD22B111D559311007A86F8 /* Frameworks */,
+				BDD22B121D559311007A86F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDD22B161D559311007A86F8 /* PBXTargetDependency */,
+			);
+			name = "Swift 异常练习UITests";
+			productName = "Swift 异常练习UITests";
+			productReference = BDD22B141D559311007A86F8 /* Swift 异常练习UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD22AED1D559311007A86F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaofan;
+				TargetAttributes = {
+					BDD22AF41D559311007A86F8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BDD22B081D559311007A86F8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BDD22AF41D559311007A86F8;
+					};
+					BDD22B131D559311007A86F8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BDD22AF41D559311007A86F8;
+					};
+				};
+			};
+			buildConfigurationList = BDD22AF01D559311007A86F8 /* Build configuration list for PBXProject "Swift 异常练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDD22AEC1D559311007A86F8;
+			productRefGroup = BDD22AF61D559311007A86F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD22AF41D559311007A86F8 /* Swift 异常练习 */,
+				BDD22B081D559311007A86F8 /* Swift 异常练习Tests */,
+				BDD22B131D559311007A86F8 /* Swift 异常练习UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD22AF31D559311007A86F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD22B031D559311007A86F8 /* LaunchScreen.storyboard in Resources */,
+				BDD22B001D559311007A86F8 /* Assets.xcassets in Resources */,
+				BDD22AFE1D559311007A86F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD22B071D559311007A86F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD22B121D559311007A86F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD22AF11D559311007A86F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD22AFB1D559311007A86F8 /* ViewController.swift in Sources */,
+				BDD22AF91D559311007A86F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD22B051D559311007A86F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD22B0E1D559311007A86F8 /* Swift_____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD22B101D559311007A86F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD22B191D559311007A86F8 /* Swift_____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDD22B0B1D559311007A86F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD22AF41D559311007A86F8 /* Swift 异常练习 */;
+			targetProxy = BDD22B0A1D559311007A86F8 /* PBXContainerItemProxy */;
+		};
+		BDD22B161D559311007A86F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDD22AF41D559311007A86F8 /* Swift 异常练习 */;
+			targetProxy = BDD22B151D559311007A86F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDD22AFC1D559311007A86F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD22AFD1D559311007A86F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDD22B011D559311007A86F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD22B021D559311007A86F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDD22B1B1D559311007A86F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDD22B1C1D559311007A86F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD22B1E1D559311007A86F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift 异常练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDD22B1F1D559311007A86F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift 异常练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDD22B211D559311007A86F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift 异常练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift 异常练习.app/Swift 异常练习";
+			};
+			name = Debug;
+		};
+		BDD22B221D559311007A86F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift 异常练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift 异常练习.app/Swift 异常练习";
+			};
+			name = Release;
+		};
+		BDD22B241D559311007A86F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift 异常练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift 异常练习";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BDD22B251D559311007A86F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift 异常练习UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift 异常练习";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD22AF01D559311007A86F8 /* Build configuration list for PBXProject "Swift 异常练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD22B1B1D559311007A86F8 /* Debug */,
+				BDD22B1C1D559311007A86F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD22B1D1D559311007A86F8 /* Build configuration list for PBXNativeTarget "Swift 异常练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD22B1E1D559311007A86F8 /* Debug */,
+				BDD22B1F1D559311007A86F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDD22B201D559311007A86F8 /* Build configuration list for PBXNativeTarget "Swift 异常练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD22B211D559311007A86F8 /* Debug */,
+				BDD22B221D559311007A86F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDD22B231D559311007A86F8 /* Build configuration list for PBXNativeTarget "Swift 异常练习UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD22B241D559311007A86F8 /* Debug */,
+				BDD22B251D559311007A86F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDD22AED1D559311007A86F8 /* Project object */;
+}

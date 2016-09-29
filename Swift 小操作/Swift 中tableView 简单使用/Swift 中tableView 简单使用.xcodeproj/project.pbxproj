@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB469BB1D54651300BF8829 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB469BA1D54651300BF8829 /* AppDelegate.swift */; };
+		BDB469BD1D54651300BF8829 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB469BC1D54651300BF8829 /* ViewController.swift */; };
+		BDB469C01D54651300BF8829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB469BE1D54651300BF8829 /* Main.storyboard */; };
+		BDB469C21D54651300BF8829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB469C11D54651300BF8829 /* Assets.xcassets */; };
+		BDB469C51D54651300BF8829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDB469C31D54651300BF8829 /* LaunchScreen.storyboard */; };
+		BDB469D01D54651300BF8829 /* Swift__tableView_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB469CF1D54651300BF8829 /* Swift__tableView_____Tests.swift */; };
+		BDB469DB1D54651300BF8829 /* Swift__tableView_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB469DA1D54651300BF8829 /* Swift__tableView_____UITests.swift */; };
+		BDB46A261D5480A300BF8829 /* XFDefineFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB46A251D5480A300BF8829 /* XFDefineFile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB469CC1D54651300BF8829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB469AF1D54651200BF8829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB469B61D54651200BF8829;
+			remoteInfo = "Swift 中tableView 简单使用";
+		};
+		BDB469D71D54651300BF8829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB469AF1D54651200BF8829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB469B61D54651200BF8829;
+			remoteInfo = "Swift 中tableView 简单使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB469B71D54651200BF8829 /* Swift 中tableView 简单使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift 中tableView 简单使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB469BA1D54651300BF8829 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDB469BC1D54651300BF8829 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDB469BF1D54651300BF8829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB469C11D54651300BF8829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB469C41D54651300BF8829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB469C61D54651300BF8829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB469CB1D54651300BF8829 /* Swift 中tableView 简单使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift 中tableView 简单使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB469CF1D54651300BF8829 /* Swift__tableView_____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift__tableView_____Tests.swift"; sourceTree = "<group>"; };
+		BDB469D11D54651300BF8829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB469D61D54651300BF8829 /* Swift 中tableView 简单使用UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift 中tableView 简单使用UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB469DA1D54651300BF8829 /* Swift__tableView_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift__tableView_____UITests.swift"; sourceTree = "<group>"; };
+		BDB469DC1D54651300BF8829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB46A251D5480A300BF8829 /* XFDefineFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XFDefineFile.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB469B41D54651200BF8829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB469C81D54651300BF8829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB469D31D54651300BF8829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB469AE1D54651200BF8829 = {
+			isa = PBXGroup;
+			children = (
+				BDB469B91D54651300BF8829 /* Swift 中tableView 简单使用 */,
+				BDB469CE1D54651300BF8829 /* Swift 中tableView 简单使用Tests */,
+				BDB469D91D54651300BF8829 /* Swift 中tableView 简单使用UITests */,
+				BDB469B81D54651200BF8829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB469B81D54651200BF8829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB469B71D54651200BF8829 /* Swift 中tableView 简单使用.app */,
+				BDB469CB1D54651300BF8829 /* Swift 中tableView 简单使用Tests.xctest */,
+				BDB469D61D54651300BF8829 /* Swift 中tableView 简单使用UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB469B91D54651300BF8829 /* Swift 中tableView 简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				BDB469BA1D54651300BF8829 /* AppDelegate.swift */,
+				BDB469BC1D54651300BF8829 /* ViewController.swift */,
+				BDB46A251D5480A300BF8829 /* XFDefineFile.swift */,
+				BDB469BE1D54651300BF8829 /* Main.storyboard */,
+				BDB469C11D54651300BF8829 /* Assets.xcassets */,
+				BDB469C31D54651300BF8829 /* LaunchScreen.storyboard */,
+				BDB469C61D54651300BF8829 /* Info.plist */,
+			);
+			path = "Swift 中tableView 简单使用";
+			sourceTree = "<group>";
+		};
+		BDB469CE1D54651300BF8829 /* Swift 中tableView 简单使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB469CF1D54651300BF8829 /* Swift__tableView_____Tests.swift */,
+				BDB469D11D54651300BF8829 /* Info.plist */,
+			);
+			path = "Swift 中tableView 简单使用Tests";
+			sourceTree = "<group>";
+		};
+		BDB469D91D54651300BF8829 /* Swift 中tableView 简单使用UITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB469DA1D54651300BF8829 /* Swift__tableView_____UITests.swift */,
+				BDB469DC1D54651300BF8829 /* Info.plist */,
+			);
+			path = "Swift 中tableView 简单使用UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB469B61D54651200BF8829 /* Swift 中tableView 简单使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB469DF1D54651300BF8829 /* Build configuration list for PBXNativeTarget "Swift 中tableView 简单使用" */;
+			buildPhases = (
+				BDB469B31D54651200BF8829 /* Sources */,
+				BDB469B41D54651200BF8829 /* Frameworks */,
+				BDB469B51D54651200BF8829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift 中tableView 简单使用";
+			productName = "Swift 中tableView 简单使用";
+			productReference = BDB469B71D54651200BF8829 /* Swift 中tableView 简单使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB469CA1D54651300BF8829 /* Swift 中tableView 简单使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB469E21D54651300BF8829 /* Build configuration list for PBXNativeTarget "Swift 中tableView 简单使用Tests" */;
+			buildPhases = (
+				BDB469C71D54651300BF8829 /* Sources */,
+				BDB469C81D54651300BF8829 /* Frameworks */,
+				BDB469C91D54651300BF8829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB469CD1D54651300BF8829 /* PBXTargetDependency */,
+			);
+			name = "Swift 中tableView 简单使用Tests";
+			productName = "Swift 中tableView 简单使用Tests";
+			productReference = BDB469CB1D54651300BF8829 /* Swift 中tableView 简单使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB469D51D54651300BF8829 /* Swift 中tableView 简单使用UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB469E51D54651300BF8829 /* Build configuration list for PBXNativeTarget "Swift 中tableView 简单使用UITests" */;
+			buildPhases = (
+				BDB469D21D54651300BF8829 /* Sources */,
+				BDB469D31D54651300BF8829 /* Frameworks */,
+				BDB469D41D54651300BF8829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB469D81D54651300BF8829 /* PBXTargetDependency */,
+			);
+			name = "Swift 中tableView 简单使用UITests";
+			productName = "Swift 中tableView 简单使用UITests";
+			productReference = BDB469D61D54651300BF8829 /* Swift 中tableView 简单使用UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB469AF1D54651200BF8829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaofan;
+				TargetAttributes = {
+					BDB469B61D54651200BF8829 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BDB469CA1D54651300BF8829 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BDB469B61D54651200BF8829;
+					};
+					BDB469D51D54651300BF8829 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BDB469B61D54651200BF8829;
+					};
+				};
+			};
+			buildConfigurationList = BDB469B21D54651200BF8829 /* Build configuration list for PBXProject "Swift 中tableView 简单使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB469AE1D54651200BF8829;
+			productRefGroup = BDB469B81D54651200BF8829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB469B61D54651200BF8829 /* Swift 中tableView 简单使用 */,
+				BDB469CA1D54651300BF8829 /* Swift 中tableView 简单使用Tests */,
+				BDB469D51D54651300BF8829 /* Swift 中tableView 简单使用UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB469B51D54651200BF8829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB469C51D54651300BF8829 /* LaunchScreen.storyboard in Resources */,
+				BDB469C21D54651300BF8829 /* Assets.xcassets in Resources */,
+				BDB469C01D54651300BF8829 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB469C91D54651300BF8829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB469D41D54651300BF8829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB469B31D54651200BF8829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB469BD1D54651300BF8829 /* ViewController.swift in Sources */,
+				BDB46A261D5480A300BF8829 /* XFDefineFile.swift in Sources */,
+				BDB469BB1D54651300BF8829 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB469C71D54651300BF8829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB469D01D54651300BF8829 /* Swift__tableView_____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB469D21D54651300BF8829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB469DB1D54651300BF8829 /* Swift__tableView_____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB469CD1D54651300BF8829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB469B61D54651200BF8829 /* Swift 中tableView 简单使用 */;
+			targetProxy = BDB469CC1D54651300BF8829 /* PBXContainerItemProxy */;
+		};
+		BDB469D81D54651300BF8829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB469B61D54651200BF8829 /* Swift 中tableView 简单使用 */;
+			targetProxy = BDB469D71D54651300BF8829 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB469BE1D54651300BF8829 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB469BF1D54651300BF8829 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB469C31D54651300BF8829 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB469C41D54651300BF8829 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB469DD1D54651300BF8829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB469DE1D54651300BF8829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB469E01D54651300BF8829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift 中tableView 简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift--tableView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDB469E11D54651300BF8829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift 中tableView 简单使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift--tableView-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDB469E31D54651300BF8829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift 中tableView 简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift--tableView-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift 中tableView 简单使用.app/Swift 中tableView 简单使用";
+			};
+			name = Debug;
+		};
+		BDB469E41D54651300BF8829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift 中tableView 简单使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift--tableView-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift 中tableView 简单使用.app/Swift 中tableView 简单使用";
+			};
+			name = Release;
+		};
+		BDB469E61D54651300BF8829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift 中tableView 简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift--tableView-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift 中tableView 简单使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BDB469E71D54651300BF8829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift 中tableView 简单使用UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dvxiaofan.Swift--tableView-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift 中tableView 简单使用";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB469B21D54651200BF8829 /* Build configuration list for PBXProject "Swift 中tableView 简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB469DD1D54651300BF8829 /* Debug */,
+				BDB469DE1D54651300BF8829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB469DF1D54651300BF8829 /* Build configuration list for PBXNativeTarget "Swift 中tableView 简单使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB469E01D54651300BF8829 /* Debug */,
+				BDB469E11D54651300BF8829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDB469E21D54651300BF8829 /* Build configuration list for PBXNativeTarget "Swift 中tableView 简单使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB469E31D54651300BF8829 /* Debug */,
+				BDB469E41D54651300BF8829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BDB469E51D54651300BF8829 /* Build configuration list for PBXNativeTarget "Swift 中tableView 简单使用UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB469E61D54651300BF8829 /* Debug */,
+				BDB469E71D54651300BF8829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB469AF1D54651200BF8829 /* Project object */;
+}
