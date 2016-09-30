@@ -10,9 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var httpTool : XFHttpTool = XFHttpTool()
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+    }
     
     
+    
+    
+    
+    
+//    var httpTool : XFHttpTool = XFHttpTool()
+    
+    /*
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
@@ -77,6 +86,7 @@ class ViewController: UIViewController {
 //    deinit {
 //        print("ViewController--销毁")
     }
+ */
 
 }
 
