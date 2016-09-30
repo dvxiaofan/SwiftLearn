@@ -12,8 +12,12 @@ class ViewController: UIViewController {
     
     var httpTool : XFHttpTool = XFHttpTool()
     
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+    
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         
+        
+    
         /*
         weakSelf?.view
         如果前面的可选类型, 没有值, 后面所有的代码都不会执行
@@ -45,33 +49,33 @@ class ViewController: UIViewController {
         
         // 尾随闭包: 如果闭包作为方法的最后一个参数, 那么闭包可以将()省略掉
         // 普通写法
-        httpTool.loadData ({[unowned self] (jsonData) -> () in
-            print("拿到的数据是:\(jsonData)")
-            
-            self.view.backgroundColor = UIColor.blueColor()
-        })
-        
-        // 尾随闭包写法一:
-        httpTool.loadData (){[unowned self] (jsonData) -> () in
-            print("拿到的数据是:\(jsonData)")
-            
-            self.view.backgroundColor = UIColor.blueColor()
-            }
-        
-        
-        // 尾随闭包写法二:
-        httpTool.loadData {[unowned self] (jsonData) -> () in
-            print("拿到的数据是:\(jsonData)")
-            
-            self.view.backgroundColor = UIColor.blueColor()
-            }
-        
-        
-    }
-    
-    // 相当于 oc 中的 dealloc 方法
-    deinit {
-        print("ViewController--销毁")
+//        httpTool.loadData (finishedCallBack: {[unowned self] (jsonData) -> () in
+//            print("拿到的数据是:\(jsonData)")
+//            
+//            self.view.backgroundColor = UIColor.blue
+//        })
+//        
+//        // 尾随闭包写法一:
+//        httpTool.loadData (){[unowned self] (jsonData) -> () in
+//            print("拿到的数据是:\(jsonData)")
+//            
+//            self.view.backgroundColor = UIColor.blue
+//            }
+//        
+//        
+//        // 尾随闭包写法二:
+//        httpTool.loadData {[unowned self] (jsonData) -> () in
+//            print("拿到的数据是:\(jsonData)")
+//            
+//            self.view.backgroundColor = UIColor.blue
+//            }
+//        
+//        
+//    }
+//    
+//    // 相当于 oc 中的 dealloc 方法
+//    deinit {
+//        print("ViewController--销毁")
     }
 
 }
